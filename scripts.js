@@ -9,3 +9,6 @@ alert (reverseArray);
 var joinArray = reverseArray.join ("");
 alert (joinArray);
 alert (originalSentence + joinArray);
+var originalJoinArray = (originalSentence + joinArray);
+var n = (originalJoinArray.length/2);
+alert (n)
